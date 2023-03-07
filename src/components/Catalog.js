@@ -10,10 +10,9 @@ import WinXP from '../images/Windows-XP.jpg';
 const Catalog = () => {
     return (
         <div className="bg-warning py-4">
-            <a name="products"></a>
             <div class="container">
-                <h1 className="text-center">Products</h1>
-                <div className="row g-4">
+                <h1 className="text-center"><a name="products">Products</a></h1>
+                <div className="row g-4 d-flex flex-row justify-content-center">
                     <Cards name="Windows 11" description="Windows operating system made by Microsoft and licensed thru various channels like retail and subscription." image={Win11} price="3880"/>
                     <Cards name="Windows 10" description="Windows operating system made by Microsoft and licensed thru various channels like retail and subscription." image={Win10} price="3880"/>
                     <Cards name="Windows 8.1" description="Windows operating system made by Microsoft and licensed thru various channels like retail and subscription." image={Win81} price="2880"/>
